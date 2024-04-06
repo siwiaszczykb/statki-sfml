@@ -1,0 +1,12 @@
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\x64\Debug\Statki.exe
+C:\Users\Barte\Desktop\Statki\x64\Debug\Statki.exe
+C:\Users\Barte\Desktop\Statki\x64\Debug\Statki.vcxproj.CopyComplete
+C:\Users\Barte\Desktop\Statki\x64\Debug\sfml-graphics-d-2.dll
+C:\Users\Barte\Desktop\Statki\x64\Debug\sfml-window-d-2.dll
+C:\Users\Barte\Desktop\Statki\x64\Debug\sfml-system-d-2.dll
+C:\Users\Barte\Desktop\Statki\x64\Debug\freetyped.dll
+C:\Users\Barte\Desktop\Statki\x64\Debug\zlibd1.dll
+C:\Users\Barte\Desktop\Statki\x64\Debug\bz2d.dll
+C:\Users\Barte\Desktop\Statki\x64\Debug\libpng16d.dll
+C:\Users\Barte\Desktop\Statki\x64\Debug\brotlidec.dll
+C:\Users\Barte\Desktop\Statki\x64\Debug\brotlicommon.dll

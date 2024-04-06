@@ -1,0 +1,56 @@
+﻿  board.cpp
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\board.cpp(52,39): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\board.cpp(52,73): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  endMenu.cpp
+  game.cpp
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(5,42): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(5,42): warning C4244:         with
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(5,42): warning C4244:         [
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(5,42): warning C4244:             T=unsigned int
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(5,42): warning C4244:         ]
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(5,22): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(5,22): warning C4244:         with
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(5,22): warning C4244:         [
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(5,22): warning C4244:             T=unsigned int
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(5,22): warning C4244:         ]
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(6,49): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(6,49): warning C4244:         with
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(6,49): warning C4244:         [
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(6,49): warning C4244:             T=unsigned int
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(6,49): warning C4244:         ]
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(6,29): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(6,29): warning C4244:         with
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(6,29): warning C4244:         [
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(6,29): warning C4244:             T=unsigned int
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(6,29): warning C4244:         ]
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(8,109): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(8,109): warning C4244:         with
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(8,109): warning C4244:         [
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(8,109): warning C4244:             T=unsigned int
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(8,109): warning C4244:         ]
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(8,89): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(8,89): warning C4244:         with
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(8,89): warning C4244:         [
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(8,89): warning C4244:             T=unsigned int
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(8,89): warning C4244:         ]
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(202,73): warning C4244: "argument": konwersja z "unsigned int" do "float", możliwa utrata danych
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(202,52): warning C4244: "argument": konwersja z "unsigned int" do "float", możliwa utrata danych
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(218,57): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(218,57): warning C4244:         with
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(218,57): warning C4244:         [
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(218,57): warning C4244:             T=unsigned int
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(218,57): warning C4244:         ]
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(218,46): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(218,46): warning C4244:         with
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(218,46): warning C4244:         [
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(218,46): warning C4244:             T=unsigned int
+C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\bin\game.cpp(218,46): warning C4244:         ]
+  main.cpp
+  menu.cpp
+  optionsMenu.cpp
+  player.cpp
+  ship.cpp
+  Generowanie kodu...
+  Statki.vcxproj -> C:\Users\Barte\Desktop\GitHub\9c491b86-gr01-repo\Projekt\Statki\x64\Debug\Statki.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
