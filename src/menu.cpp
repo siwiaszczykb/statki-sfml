@@ -3,12 +3,12 @@
 
 Menu::Menu(float width, float height) : screenWidth(width), screenHeight(height) {
     if (!font.loadFromFile("font.otf")) {
-        std::cerr << "Font sie nie zaladowal bruh" << std::endl;
+        std::cerr << "Font sie nie zaladowal" << std::endl;
         font.loadFromFile("font1.ttf");
     }
 
     if (!logoTexture.loadFromFile("ship.png")) { 
-        std::cerr << "Logo sie nie zaladowalo bruh" << std::endl;
+        std::cerr << "Logo sie nie zaladowalo" << std::endl;
     }
 
     logo.setTexture(logoTexture);
@@ -17,7 +17,7 @@ Menu::Menu(float width, float height) : screenWidth(width), screenHeight(height)
     logo.setPosition(screenWidth / 2 - logo.getGlobalBounds().width / 2, screenHeight / 6);
 
     const std::vector<std::string> mainMenuStrings = {
-        "Szpil", "Nasztalowania", "Wyjdz"
+        "Gra", "Ustawienia", "Wyjdz"
     };
 
     for (size_t i = 0; i < mainMenuStrings.size(); ++i) {
