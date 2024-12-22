@@ -20,13 +20,13 @@ void Player::handleSetupEvents(const sf::Event& event, Board& board) {
     // Obs³uga wprowadzania nicku
     if (setupState == PlayerSetupState::SETTING_NICKNAME) {
         if (event.type == sf::Event::TextEntered) {
-            // Dodawanie znaku do nicku (jeœli jest drukowalny)
+            // Dodawanie znaku do nicku (jesli drukowalny)
             if (event.text.unicode < 128 && std::isprint(static_cast<char>(event.text.unicode))) {
                 nickname += static_cast<char>(event.text.unicode);
             }
         }
         else if (event.type == sf::Event::KeyPressed) {
-            // Usuwanie ostatniego znaku (Backspace) lub przejœcie do etapu ustawiania statków (Enter)
+            // Usuwanie ostatniego znaku lub przejœcie do etapu ustawiania statków
             if (event.key.code == sf::Keyboard::BackSpace && !nickname.empty()) {
                 nickname.pop_back();
             }

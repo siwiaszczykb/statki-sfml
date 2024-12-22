@@ -3,7 +3,7 @@
 // Inicjalizacja czcionki i ustawienia tekstu dla przycisku "Wyjdz"
 EndMenu::EndMenu(float width, float height) : Menu(width, height) {
     if (!font.loadFromFile("font.otf")) {
-        std::cerr << "Font sie nie zaladowal bruh" << std::endl;
+        std::cerr << "Font sie nie zaladowal" << std::endl;
     }
     menuItems[0].setFont(font);
     menuItems[0].setString("Wyjdz");

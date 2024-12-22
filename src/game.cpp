@@ -7,7 +7,7 @@ optionsMenu(window.getSize().x, window.getSize().y),
 gameState(GameState::MENU), board1(), board2(),
 player1("Player1", "", board1), player2("Player2", "", board2), endMenu(window.getSize().x, window.getSize().y) {
     if (!font.loadFromFile("font.otf")) {
-        std::cerr << "Font sie nie zaladowal bruh" << std::endl;
+        std::cerr << "Font sie nie zaladowal" << std::endl;
     }
 }
 

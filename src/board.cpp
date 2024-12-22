@@ -11,7 +11,7 @@ Board::Board() {
     }
 }
 
-//destruktor usuwajacy array z plansza
+//destruktor usuwajacy array z planszy
 Board::~Board() {
     for (unsigned int i = 0; i < height; ++i) {
         delete[] boardArray[i];

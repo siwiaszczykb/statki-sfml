@@ -3,6 +3,7 @@
 #include "Menu.h"
 #include "Game.h"
 
+//glowna petla gry
 int main() {
     Game game;
     game.run();

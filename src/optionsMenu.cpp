@@ -3,11 +3,11 @@
 // Konstruktor klasy
 OptionsMenu::OptionsMenu(float width, float height) : Menu(width, height), screenWidth(width), screenHeight(height), selectedItemIndex(0), currentResolutionIndex(0) {
     if (!font.loadFromFile("font.otf")) {
-        std::cerr << "Font sie nie zaladowal bruh" << std::endl;
+        std::cerr << "Font sie nie zaladowal" << std::endl;
     }
 
     const std::vector<std::string> optionStrings = {
-        "800x600", "1280×720", "1920×1080", "Tryb pelnoekranowy: Off", "< Curig"
+        "800x600", "1280×720", "1920×1080", "Tryb pelnoekranowy: Off", "< Wroc"
     };
 
     for (size_t i = 0; i < optionStrings.size(); ++i) {
@@ -19,14 +19,14 @@ OptionsMenu::OptionsMenu(float width, float height) : Menu(width, height), scree
     positionMenuItems();
 }
 
-// Metoda rysuj¹ca menu opcji na oknie
+// rysuj menu opcji na oknie
 void OptionsMenu::draw(sf::RenderWindow& window) {
     for (const auto& item : menuItems) {
         window.draw(item);
     }
 }
 
-// Metoda ustawiaj¹ca pozycjê elementów menu opcji
+// ustaw pozycje elementów menu opcji
 void OptionsMenu::positionMenuItems() {
     float y = screenHeight / 5;
     for (int i = 0; i < 5; ++i) {
@@ -46,7 +46,7 @@ void OptionsMenu::MoveUp() {
     currentResolutionIndex = selectedItemIndex;
 }
 
-// Metoda obs³uguj¹ca ruch w dó³ w menu opcji
+// ruch w do³ w menu opcji
 void OptionsMenu::MoveDown() {
     if (selectedItemIndex + 1 < 5) {
         menuItems[selectedItemIndex].setFillColor(sf::Color::White);
@@ -56,29 +56,29 @@ void OptionsMenu::MoveDown() {
     currentResolutionIndex = selectedItemIndex;
 }
 
-// Getter - Metoda zwracaj¹ca indeks wybranego elementu w menu opcji
+// getter indeksu wybranego elementu w menu opcji
 int OptionsMenu::GetPressedItem() const {
     return selectedItemIndex;
 }
 
-// Getter - Metoda zwracaj¹ca wybran¹ rozdzielczoœæ w menu opcji
+// getter wybranej rozdzielczosci w menu opcji
 Resolution OptionsMenu::getSelectedResolution() const {
     return resolutions[currentResolutionIndex];
 }
 
-// Metoda sprawdzaj¹ca, czy tryb pe³noekranowy jest w³¹czony
+// czy tryb pe³noekranowy jest w³¹czony
 bool OptionsMenu::isFullscreen() const {
     return isFullscreenEnabled; 
 }
 
-// Metoda prze³¹czaj¹ca tryb pe³noekranowy
+// tryb pe³noekranowy
 void OptionsMenu::toggleFullscreen() {
     isFullscreenEnabled = !isFullscreenEnabled; 
     menuItems[3].setString("Fullscreen: " + std::string(isFullscreenEnabled ? "On" : "Off"));
     positionMenuItems();
 }
 
-// Metoda aktualizuj¹ca rozmiar i pozycjê menu opcji po zmianie rozdzielczoœci okna
+// aktualizuj rozmiar i pozycje menu opcji po zmianie rozdzielczoœci okna
 void OptionsMenu::updateSizeAndPosition(float newWidth, float newHeight) {
     screenWidth = newWidth;
     screenHeight = newHeight;
