@@ -1,40 +1,4 @@
-# Battleship [EN]
-
-## Project Description
-
-This project involves the implementation of the classic Battleship game using C++ and the SFML library. The game was developed following object-oriented programming paradigms.
-
-## Game Features
-
-- **Single-player mode**: The player competes against a IRL opponent in a hot-seat mode.
-- **Ship Placement**: Users manually place their ships on the board.
-- **Fire**: The player inputs the coordinates of their shots, and the program informs whether the shot was a hit or a miss.
-- **User Interface**: The game features a graphical user interface built using the SFML library.
-
-## Project Structure
-
-The project consists of the following classes:
-
-- **Game**: Manages the game logic.
-- **Player**: Represents the player.
-- **Board**: Responsible for the game board, storing information about ship placements and shot history.
-- **Ship**: Represents a single ship.
-- **Menu, EndMenu, OptionsMenu**: Classes responsible for the user interface.
-
-## Requirements
-
-- C++11 or newer
-- SFML library
-
-## Documentation
-
-The project documentation was generated using Doxygen. It contains a detailed description of the data structures, classes, and functions used in the project. The documentation can be found in the `docs` directory.
-
-## Info
-
-This project was completed as part of the Computer Programming II course at the Silesian University of Technology in the 2023/2024 academic year.
-
-# Statki [PL]
+# Statki
 
 ## Opis projektu
 
